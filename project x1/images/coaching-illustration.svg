@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="250" cy="250" r="200" fill="#1a237e" opacity="0.1"/>
+    
+    <!-- Person -->
+    <g transform="translate(180, 150)">
+        <!-- Head -->
+        <circle cx="70" cy="70" r="40" fill="#FFB74D"/>
+        <!-- Body -->
+        <path d="M70 110 L70 220 M30 150 L110 150" stroke="#FF7043" stroke-width="8"/>
+        <!-- Arms -->
+        <path d="M70 140 L20 180 M70 140 L120 180" stroke="#FF7043" stroke-width="8"/>
+    </g>
+
+    <!-- Floating Elements -->
+    <!-- Book -->
+    <g transform="translate(300, 150)">
+        <path d="M0,0 L80,0 L80,60 L0,60 Z" fill="#4FC3F7"/>
+        <path d="M0,0 C20,-10 60,-10 80,0" fill="none" stroke="#0288D1" stroke-width="4"/>
+        <line x1="20" y1="15" x2="60" y2="15" stroke="white" stroke-width="2"/>
+        <line x1="20" y1="25" x2="60" y2="25" stroke="white" stroke-width="2"/>
+        <line x1="20" y1="35" x2="60" y2="35" stroke="white" stroke-width="2"/>
+    </g>
+
+    <!-- Lightbulb -->
+    <g transform="translate(150, 100)">
+        <path d="M25,0 A25,25 0 1,1 25,50 L25,60" fill="#FFD54F" stroke="#FFA000" stroke-width="2"/>
+        <circle cx="25" cy="25" r="15" fill="#FFECB3"/>
+    </g>
+
+    <!-- Growth Arrow -->
+    <path d="M100,350 Q250,200 400,150" fill="none" stroke="#4CAF50" stroke-width="4" stroke-dasharray="8,4"/>
+    
+    <!-- Stars -->
+    <g fill="#FFC107">
+        <path d="M380,80 l5,10 10,5 -10,5 -5,10 -5,-10 -10,-5 10,-5z"/>
+        <path d="M420,200 l4,8 8,4 -8,4 -4,8 -4,-8 -8,-4 8,-4z"/>
+        <path d="M120,280 l6,12 12,6 -12,6 -6,12 -6,-12 -12,-6 12,-6z"/>
+    </g>
+
+    <!-- Puzzle Piece -->
+    <path d="M340,300 c10,0 10,10 20,10 c10,0 10,-10 20,-10 v20 h-40 z" fill="#7E57C2"/>
+</svg>
